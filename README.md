@@ -35,10 +35,16 @@ Il programma è strutturato come segue:
 ### Utilizzo del programma
 
 L'utente, una volta avviato il programma, dovrà inserire il proprio username e una password. La password deve essere lunga almeno 5 caratteri e contenere almeno un carattere speciale. Se la password inserita non soddisfa questi requisiti, il programma richiederà all'utente di inserire nuovamente la password.
+
+>[!NOTE] 
+>
+>I dati relativi agli utenti saranno salvati su un file di testo, denominato "*usr.txt*".
+
 Una volta effettuato l'accesso, all'utente verranno presentate le seguenti opzioni:
 + Inserimento di un'uscita: l'utente potrà inserire i dati relativi ad un automezzo, quali marca, modello, targa, grado e cognome del capopattuglia, grado e cognome dell'autista, ora e minuti di uscita.
 + Visualizzazione delle uscite effettuate: l'utente potrà visualizzare i dati relativi alle uscite effettuate nel corso della giornata.
 + Visualizzazione del database: l’utente potrà visualizzare tutte le uscite registrate.
+
 >[!NOTE] 
 >
 >I dati relativi agli automezzi saranno salvati su un file di testo, denominato "*db.txt*".
