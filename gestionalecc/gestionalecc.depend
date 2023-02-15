@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1674733386 source:c:\users\studente\desktop\3ai\logiudice\gestionalecc\main.cpp
+	<iostream>
+
+1674755309 source:c:\users\gta56\desktop\codeblocks projects\gestionalecc\main.cpp
+	<fstream>
+	<string.h>
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+
+1675785068 source:c:\users\gta56\onedrive\desktop\gestionalecc\main.cpp
+	<fstream>
+	<string.h>
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+
+1676485668 source:c:\users\gta56\desktop\gestionalecc\main.cpp
+	<fstream>
+	<string.h>
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<cctype>
+	<sstream>
+
