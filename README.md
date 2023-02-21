@@ -22,8 +22,8 @@ Il programma utilizza le seguenti [librerie](https://github.com/LoGiudiceM/Datab
 Il programma è strutturato come segue:
 | Nome | Codice | Tipo | Descrizione |
 |--- |--- |--- |--- |
-| Controllo carattere speciale | checkcaratspec | bool | Verifica che la password inserita contenga almeno un carattere speciale. |
-| Controllo carattere | checkchar | bool | Verifica che il carattere passato come argomento sia un carattere speciale. |
+| (RIMOSSO) Controllo carattere speciale | checkcaratspec | bool | INTEGRATA IN FUNZIONE 'validatePassword'. Verifica che la password inserita contenga almeno un carattere speciale. |
+| (RIMOSSO) Controllo carattere | checkchar | bool | INTEGRATA IN FUNZIONE 'validatePassword'. Verifica che il carattere passato come argomento sia un carattere speciale. |
 | Mezzo | mezzo | struct | Contiene i dati relativi ad un automezzo, quali marca, modello, targa, grado e cognome del capopattuglia, grado e cognome dell'autista, ora e minuti di uscita. |
 | Carica vettore | cv | void | Consente di caricare i dati relativi ad un automezzo nell'array di tipo mezzo. |
 | Stampa vettore | sv | void | Stampa i contenuti dell'array di tipo mezzo. |
