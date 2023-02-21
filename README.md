@@ -8,7 +8,7 @@ Lo scopo del programma è quello di gestire le informazioni relative agli autome
 
 ### Descrizione del programma
 
-Il programma utilizza le seguenti librerie:
+Il programma utilizza le seguenti [librerie](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP):
 | Libreria | Descrizione |
 |--- |--- |
 | iostream |  Fornisce gli strumenti per gestire l'input e l'output su console. In particolare, fornisce classi come cin (input standard) e cout (output standard) per la lettura e la scrittura su console. |
