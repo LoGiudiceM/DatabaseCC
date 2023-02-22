@@ -34,6 +34,8 @@ Il programma è strutturato come segue:
 
 ### Utilizzo del programma
 
+Fare riferimento alla guida completa: [Guida all'utilizzo](https://github.com/LoGiudiceM/DatabaseCC/wiki/Utilizzo-del-programma)
+
 L'utente, una volta avviato il programma, dovrà inserire il proprio username e una password. La password deve essere lunga almeno 6 caratteri e contenere almeno un carattere speciale. Se la password inserita non soddisfa questi requisiti, il programma richiederà all'utente di inserire nuovamente la password.
 
 >[!NOTE] 
