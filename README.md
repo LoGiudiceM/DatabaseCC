@@ -11,13 +11,13 @@ Lo scopo del programma è quello di gestire le informazioni relative agli autome
 Il programma utilizza le seguenti [librerie](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP):
 | Libreria | Descrizione |
 |--- |--- |
-| iostream |  Fornisce gli strumenti per gestire l'input e l'output su console. In particolare, fornisce classi come cin (input standard) e cout (output standard) per la lettura e la scrittura su console. |
-| string.h | Fornisce una serie di funzioni per la manipolazione di stringhe. In particolare, fornisce funzioni per copiare, concatenare e confrontare le stringhe. |
-| fstream | Fornisce gli strumenti per lavorare con i file. In particolare, fornisce classi come ifstream (input file stream) e ofstream (output file stream) per leggere e scrivere rispettivamente dai file. |
-| stdlib.h | Fornisce funzioni di utilità generale come l'allocation dinamica della memoria, la conversione di stringhe in numeri, e il controllo del flusso di programma attraverso funzioni come exit. |
-| windows.h | Libreria specifica per il sistema operativo Windows e fornisce una serie di funzioni per interagire con il sistema operativo, come la gestione delle finestre, la lettura/scrittura su file, la gestione dei processi e la comunicazione tra i processi. |
-| cctype |  Fornisce funzioni per la manipolazione dei caratteri, in particolare per il controllo del tipo di carattere (ad esempio, se è una lettera, un numero o uno spazio) e la conversione tra caratteri maiuscoli e minuscoli. |
-| sstream |  Fornisce una classe stringstream che permette di lavorare con le stringhe come se fossero stream di input/output, consentendo di manipolare le stringhe come se fossero file. In particolare, permette di convertire facilmente tipi di dati come numeri o bool in stringhe e viceversa. |
+| [iostream](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP#iostream) |  Fornisce gli strumenti per gestire l'input e l'output su console. In particolare, fornisce classi come cin (input standard) e cout (output standard) per la lettura e la scrittura su console. |
+| [string.h](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP#stringh) | Fornisce una serie di funzioni per la manipolazione di stringhe. In particolare, fornisce funzioni per copiare, concatenare e confrontare le stringhe. |
+| [fstream](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP#fstream) | Fornisce gli strumenti per lavorare con i file. In particolare, fornisce classi come ifstream (input file stream) e ofstream (output file stream) per leggere e scrivere rispettivamente dai file. |
+| [stdlib.h](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP#stdlibh) | Fornisce funzioni di utilità generale come l'allocation dinamica della memoria, la conversione di stringhe in numeri, e il controllo del flusso di programma attraverso funzioni come exit. |
+| [windows.h](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP#windowsh) | Libreria specifica per il sistema operativo Windows e fornisce una serie di funzioni per interagire con il sistema operativo, come la gestione delle finestre, la lettura/scrittura su file, la gestione dei processi e la comunicazione tra i processi. |
+| [cctype](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP#cctype) |  Fornisce funzioni per la manipolazione dei caratteri, in particolare per il controllo del tipo di carattere (ad esempio, se è una lettera, un numero o uno spazio) e la conversione tra caratteri maiuscoli e minuscoli. |
+| [sstream](https://github.com/LoGiudiceM/DatabaseCC/wiki/Librerie-CPP#sstream) |  Fornisce una classe stringstream che permette di lavorare con le stringhe come se fossero stream di input/output, consentendo di manipolare le stringhe come se fossero file. In particolare, permette di convertire facilmente tipi di dati come numeri o bool in stringhe e viceversa. |
 
 Il programma è strutturato come segue:
 | Nome | Codice | Tipo | Descrizione |
