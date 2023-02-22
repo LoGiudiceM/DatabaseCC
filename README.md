@@ -22,19 +22,19 @@ Il programma utilizza le seguenti [librerie](https://github.com/LoGiudiceM/Datab
 Il programma è strutturato come segue:
 | Nome | Codice | Tipo | Descrizione |
 |--- |--- |--- |--- |
-| (RIMOSSO) Controllo carattere speciale | checkcaratspec | bool | INTEGRATA IN FUNZIONE 'validatePassword'. Verifica che la password inserita contenga almeno un carattere speciale. |
-| (RIMOSSO) Controllo carattere | checkchar | bool | INTEGRATA IN FUNZIONE 'validatePassword'. Verifica che il carattere passato come argomento sia un carattere speciale. |
-| Mezzo | mezzo | struct | Contiene i dati relativi ad un automezzo, quali marca, modello, targa, grado e cognome del capopattuglia, grado e cognome dell'autista, ora e minuti di uscita. |
-| Carica vettore | cv | void | Consente di caricare i dati relativi ad un automezzo nell'array di tipo mezzo. |
-| Stampa vettore | sv | void | Stampa i contenuti dell'array di tipo mezzo. |
-| Scrivi su file | scriviSufile | void | Inserisce in un documento i valori dell'array di tipo mezzo. |
-| Convalida Password | validatePassword | void | Controlla la validità della password. |
-| Registrazione | createAccount | void | Esegue la registrazione di un utente inserendo i dati su un archivio. |
-| Accesso | login | bool | Esegue il login confrontando le credenziali inserite e quelle presenti sull'archivio. |
+| (RIMOSSO) [Controllo carattere speciale](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#controllo-carattere-speciale) | checkcaratspec | bool | INTEGRATA IN FUNZIONE 'validatePassword'. Verifica che la password inserita contenga almeno un carattere speciale. |
+| (RIMOSSO) [Controllo carattere](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#verifica-carattere-speciale) | checkchar | bool | INTEGRATA IN FUNZIONE 'validatePassword'. Verifica che il carattere passato come argomento sia un carattere speciale. |
+| [Mezzo](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#dati-mezzo) | mezzo | struct | Contiene i dati relativi ad un automezzo, quali marca, modello, targa, grado e cognome del capopattuglia, grado e cognome dell'autista, ora e minuti di uscita. |
+| [Carica vettore](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#carica-vettore) | cv | void | Consente di caricare i dati relativi ad un automezzo nell'array di tipo mezzo. |
+| [Stampa vettore](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#stampa-vettore) | sv | void | Stampa i contenuti dell'array di tipo mezzo. |
+| [Scrivi su file](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#scrittura-su-file) | scriviSufile | void | Inserisce in un documento i valori dell'array di tipo mezzo. |
+| [Convalida Password](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#convalida-password) | validatePassword | void | Controlla la validità della password. |
+| [Registrazione](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#registrazione) | createAccount | void | Esegue la registrazione di un utente inserendo i dati su un archivio. |
+| [Accesso](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#login) | login | bool | Esegue il login confrontando le credenziali inserite e quelle presenti sull'archivio. |
 
 ### Utilizzo del programma
 
-L'utente, una volta avviato il programma, dovrà inserire il proprio username e una password. La password deve essere lunga almeno 5 caratteri e contenere almeno un carattere speciale. Se la password inserita non soddisfa questi requisiti, il programma richiederà all'utente di inserire nuovamente la password.
+L'utente, una volta avviato il programma, dovrà inserire il proprio username e una password. La password deve essere lunga almeno 6 caratteri e contenere almeno un carattere speciale. Se la password inserita non soddisfa questi requisiti, il programma richiederà all'utente di inserire nuovamente la password.
 
 >[!NOTE] 
 >
