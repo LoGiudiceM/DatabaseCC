@@ -31,6 +31,7 @@ Il programma è strutturato come segue:
 | [Convalida Password](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#convalida-password) | validatePassword | void | Controlla la validità della password. |
 | [Registrazione](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#registrazione) | createAccount | void | Esegue la registrazione di un utente inserendo i dati su un archivio. |
 | [Accesso](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#login) | login | bool | Esegue il login confrontando le credenziali inserite e quelle presenti sull'archivio. |
+| [Inserimento Rientro Pattuglia](https://github.com/LoGiudiceM/DatabaseCC/wiki/Funzioni-nel-Programma#aggiornamento-file) | aggiornaSuFile | void | Questa funzione legge il file di testo "db.txt" contenente informazioni sulle pattuglie, e aggiorna l'ora di rientro di una pattuglia specificata dalla targa. |
 
 ### Utilizzo del programma
 
@@ -44,8 +45,10 @@ L'utente, una volta avviato il programma, dovrà inserire il proprio username e 
 
 Una volta effettuato l'accesso, all'utente verranno presentate le seguenti opzioni:
 + Inserimento di un'uscita: l'utente potrà inserire i dati relativi ad un automezzo, quali marca, modello, targa, grado e cognome del capopattuglia, grado e cognome dell'autista, ora e minuti di uscita.
++ Inserimento rientro della pattuglia.
 + Visualizzazione delle uscite effettuate: l'utente potrà visualizzare i dati relativi alle uscite effettuate nel corso della giornata.
 + Visualizzazione del database: l’utente potrà visualizzare tutte le uscite registrate.
++ Uscita dal programma.
 
 >[!NOTE] 
 >
